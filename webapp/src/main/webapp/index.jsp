@@ -1,37 +1,32 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form Example</title>
+</head>
+<body>
 
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
+    <h2>User Information Form</h2>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
+    <form action="/submit-data" method="POST">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name">
+        </div>
 
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
+        <div>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email">
+        </div>
 
-   <h1> Thankyou, Happy Learning </h1>
+        <div>
+            <label for="msg">Message:</label>
+            <textarea id="msg" name="user_message" rows="4"></textarea>
+        </div>
 
-  
-</form>
+        <div class="button">
+            <button type="submit">Send Message</button>
+        </div>
+    </form>
+
+</body>
+</html>
