@@ -67,7 +67,7 @@
                 <div class="grid">
                     <div class="field-row">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="user_name" placeholder="Your full name" required autocomplete="name">
+                        <input type="text" id="name" name="user_name" placeholder="Your full name please" required autocomplete="name">
                     </div>
 
                     <div class="field-row">
