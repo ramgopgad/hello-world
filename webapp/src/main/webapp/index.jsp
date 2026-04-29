@@ -60,7 +60,7 @@
         <div class="card" role="region" aria-labelledby="contact-heading">
             <div>
                 <h1 id="contact-heading">Contact Us</h1>
-                <p class="lead">Send a message and we'll get back to you within 1–2 business days.</p>
+                <p class="lead">Send a message and we'll get back to you within 13 business days.</p>
             </div>
 
             <form action="/submit-data" method="POST" novalidate>
